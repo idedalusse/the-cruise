@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zacharymikel.thecruise">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity.VehicleOverviewActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".Activity.CreateAccountActivity"
+            android:label="@string/activity_label_create_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.ForgotPasswordActivity"
+            android:label="@string/activity_label_forgot_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.VehicleDetailActivity"
+            android:label="@string/title_activity_vehicle_detail"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.VehicleOverviewActivity" />
+        </activity>
+
+        <activity
+            android:name=".Activity.AddMaintenanceActivity"
+            android:label="@string/title_activity_add_maintenance"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.VehicleDetailActivity" />
+        </activity>
+
+        <activity
+            android:name=".Activity.EditVehicleActivity"
+            android:label="@string/title_activity_edit_vehicle"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize"
+            android:layout_gravity="center"/>
+    </application>
+
+</manifest>

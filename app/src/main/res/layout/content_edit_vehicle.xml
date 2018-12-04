@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/form_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/form_container"
+            style="@style/FormContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/vehicle_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_directions_car_black_24px" />
+
+            <ImageView
+                android:id="@+id/icon_edit_vehicle_image"
+                style="@style/HeaderIcon"
+                android:layout_marginTop="56dp"
+                app:srcCompat="@drawable/ic_directions_car_black_24px"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/year_input_layout"
+                style="@style/TextInputLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vehicle_image">
+
+                <AutoCompleteTextView
+                    android:id="@+id/year_input"
+                    style="@style/TextInput"
+                    android:completionThreshold="1"
+                    android:hint="@string/hint_year"
+                    android:inputType="number" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/make_input_layout"
+                style="@style/TextInputLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/year_input_layout">
+
+                <AutoCompleteTextView
+                    android:id="@+id/make_input"
+                    style="@style/TextInput"
+                    android:completionThreshold="1"
+                    android:hint="@string/hint_make"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/model_input_layout"
+                style="@style/TextInputLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/make_input_layout">
+
+                <AutoCompleteTextView
+                    android:id="@+id/model_input"
+                    style="@style/TextInput"
+                    android:completionThreshold="1"
+                    android:hint="@string/hint_model"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/color_input_layout"
+                style="@style/TextInputLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/model_input_layout">
+
+                <AutoCompleteTextView
+                    android:id="@+id/color_input"
+                    style="@style/TextInput"
+                    android:completionThreshold="1"
+                    android:hint="@string/hint_color"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/engine_input_layout"
+                style="@style/TextInputLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/color_input_layout">
+
+                <AutoCompleteTextView
+                    android:id="@+id/engine_input"
+                    style="@style/TextInput"
+                    android:completionThreshold="1"
+                    android:hint="@string/hint_engine"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Save"
+        android:textColor="@color/colorLight"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

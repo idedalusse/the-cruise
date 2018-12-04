@@ -1,0 +1,114 @@
+<resources>
+
+    <!-- base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- toolbar theme -->
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/colorLight</item>
+        <item name="android:textColorSecondary">@color/colorLight</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="HeaderIcon">
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:tint">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="InputLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingBottom">@dimen/input_label_vertical_spacing</item>
+    </style>
+
+    <style name="FormPadding">
+        <item name="android:layout_marginRight">@dimen/form_input_horizontal_spacing</item>
+        <item name="android:layout_marginLeft">@dimen/form_input_horizontal_spacing</item>
+    </style>
+
+    <style name="SpinnerPadding">
+        <item name="android:layout_marginRight">@dimen/spinner_horizontal_spacing</item>
+        <item name="android:layout_marginLeft">@dimen/spinner_horizontal_spacing</item>
+    </style>
+
+    <style name="TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextInput">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SpinnerInput">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="FormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+    </style>
+
+    <style name="BannerImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+    </style>
+
+    <style name="TextTitleLight">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+    </style>
+
+    <style name="DefaultMargins">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+    </style>
+
+
+    <color name="white">#fff</color>
+</resources>

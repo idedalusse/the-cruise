@@ -1,0 +1,107 @@
+<resources>
+
+
+    <string name="app_name">Cruise</string>
+    <string name="app_icon_goes_here">App Logo/Title Goes Here</string>
+
+
+    <!--Activities-->
+    <string name="activity_signup_success">Account created successfully.</string>
+    <string name="activity_password_reset_success">Reset email sent.</string>
+    <string name="activity_password_reset_fail">Please try again.</string>
+
+    <!--Buttons-->
+    <string name="button_login">Log In</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_send_email">Reset Password</string>
+    <string name="button_forgot_password_prompt">Need help logging in?</string>
+
+    <!--Toast-->
+    <string name="toast_signup_fail">Signup failed: %1$s</string>
+    <string name="toast_login_fail">Login failed, please try again!</string>
+    <string name="toast_verification_sent">Verification email sent to %1s!</string>
+    <string name="toast_reset_email_fail">Couldn\'t send reset email, please try again!</string>
+
+    <!--Text Hints-->
+    <string name="hint_year">Year</string>
+    <string name="hint_make">Make</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_drive_type">Drive Type</string>
+    <string name="hint_color">Color</string>
+    <string name="hint_add_vehicle">You don\'t have any cars yet. Add a car to get started!</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_first_name">Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_average_mileage_input">Miles Driven per year</string>
+    <string name="hint_average_mileage_units">per</string>
+
+    <!--Titles-->
+    <string name="title_activity_add_vehicle">Add Vehicle</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_create_account">Create Account</string>
+    <string name="title_sign_up">Sign Up</string>
+    <string name="title_vehicle_overview">My Cars</string>
+
+    <!--Events -->
+    <string name="event_create_user_success">Account created successfully!</string>
+    <string name="event_create_user_fail">A problem occurred while creating your account.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_year_input">Enter a 4-digit year</string>
+    <string name="error_make_input">Please enter a valid manufacturer</string>
+    <string name="error_color_input">Please select a color</string>
+    <string name="error_model_input">Please select a model</string>
+    <string name="error_drive_type_input">Please enter a drive type</string>
+    <string name="error_mileage_input">Enter a mileage value</string>
+    <string name="hint_add_vehicle_step1">Step 1</string>
+    <string name="activity_add_vehicle_step1">Tell us a little about your ride.</string>
+    <string name="string_hint_miles">Mileage</string>
+    <string name="prompt_gallery_camera">Take a new picture or select one from the gallery?</string>
+    <string name="prompt_camera">Camera</string>
+    <string name="prompt_gallery">Gallery</string>
+    <string name="title_activity_add_vehicle_step3">Would you like us to fill in some of the blanks for you?</string>
+    <string name="desciption_activity_add_vehicle_step3">We can add default maintenance items to get you started.</string>
+    <string name="do_it">Do it!</string>
+    <string name="no_thanks">I\'ve got this.</string>
+    <string name="desciption_mileage_average">How many miles do you drive this car on average?</string>
+    <string name="error_average_mileage_input">Please enter the miles driven</string>
+    <string name="title_activity_add_vehicle_step4">Everything look right?</string>
+    <string name="hint_year_make_model">Year Make Model</string>
+    <string name="hint_total_miles">xxx,xxx miles</string>
+
+    <string name="year_make_model"><u>%1$s %2$s %3$s</u></string>
+    <string name="photo_picker_title">Vehicle Picture</string>
+    <string name="photo_picker_description">Take a new picture of your car or select one from your gallery!</string>
+    <string name="photo_picker_camera">Camera</string>
+    <string name="photo_picker_gallery">Gallery</string>
+
+
+    <string name="remove_vehicle_deny">Cancel</string>
+    <string name="remove_vehicle_confirm">Okay</string>
+    <string name="remove_vehicle_title">Delete Car</string>
+    <string name="remove_vehicle_description">Do you really want to remove this car?</string>
+    <string name="title_activity_vehicle_detail">Details</string>
+    <string name="edit_vehicle"><u>Edit</u></string>
+    <string name="maintenance_list_title">Maintenance</string>
+    <string name="title_activity_add_maintenance">Add Maintenance</string>
+    <string name="string_hint_title">Title</string>
+    <string name="string_hint_due_date">Due Date</string>
+    <string name="string_hint_cost">Cost</string>
+    <string name="string_hint_description">Description</string>
+    <string name="activity_label_create_account">Sign Up</string>
+    <string name="activity_label_forgot_password">Forgot Password</string>
+    <string name="default_maintenance_title">Add maintenance!</string>
+    <string name="hint_miles">Miles</string>
+    <string name="title_activity_edit_vehicle">Edit Vehicle</string>
+    <string name="hint_engine">Engine</string>
+    <string name="remove_maintenance_title">Remove Maintenance</string>
+    <string name="remove_maintenance_description">Are you sure you want to remove this maintenance item?</string>
+    <string name="remove_maintenance_confirm">Remove</string>
+    <string name="remove_maintenance_deny">Cancel</string>
+    <string name="reset_password_description">Enter your email to get a password reset link.</string>
+
+
+</resources>

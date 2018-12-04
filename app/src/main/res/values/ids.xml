@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="photo_picker_camera" type="id">Camera</item>
+    <item name="photo_picker_gallery" type="id">Gallery</item>
+</resources>
